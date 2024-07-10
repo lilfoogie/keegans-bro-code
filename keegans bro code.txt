@@ -1,0 +1,42 @@
+import turtle
+t= turtle.Turtle()
+t.penup()
+t.goto(-100,100)
+t.begin_fill()
+t.fillcolor("gold")
+t.circle(50)
+t.end_fill()
+
+t.penup()
+t.goto(-50,0) 
+t.pendown()
+t.forward(75)
+
+
+t.goto(0,0)
+t.begin_fill()
+t.fillcolor("Blue")
+t.pendown()
+t.forward(100)
+t. left(125)
+t.forward(100)
+t.left(115)
+t.forward(95)
+t.right(60)
+t.penup()
+t.end_fill()
+
+t.begin_fill()
+t.fillcolor("Purple")
+
+t.forward(20)
+t.right(65)
+t.forward(150)
+t.left(130)
+t.forward(150)
+t.left(115)
+t.forward(130)
+t.end_fill()
+
+
+turtle.done()
